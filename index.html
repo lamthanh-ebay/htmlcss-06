@@ -39,13 +39,13 @@
         <link rel="stylesheet" href="./assets/css/responsive.css" />
     </head>
     <body style="height: 2000px">
-        <!-- Header -->
+        <!-- Header Mobile -->
         <header class="header">
             <div class="container header__container">
                 <div class="row">
                     <div class="col">
                         <div class="header__wrap">
-                            <!-- Header email -->
+                            <!-- Header Email => Mobile  -->
                             <div class="header-email">
                                 <a href="mailto:hi@arif.interactive" class="header-email__icon-wrap">
                                     <img src="./assets/icon/header-email-icon.svg" alt="" class="header-email__icon" />
@@ -53,7 +53,7 @@
                                 <a href="mailto:hi@arif.interactive" class="header-email__add">hi@arif.interactive</a>
                             </div>
 
-                            <!-- Header Logo -->
+                            <!-- Header Logo => Mobile -->
                             <a href="#">
                                 <picture>
                                     <source media="(max-width: 767.98px)" srcset="./assets/img/Logo-mobile.png" />
@@ -65,11 +65,11 @@
                                 </picture>
                             </a>
 
-                            <!-- Header nav -->
+                            <!-- Header Nav => Mobile -->
                             <nav class="header-nav">
-                                <!-- Mobile - Tablet - Menu -->
-                                <label for="header-nav__mobile-checkbox" class="header-nav__mobile-wrap">
-                                    <div class="header-nav__mobile-icon-wrap">
+                                <!-- Header Nav Menu icon => Mobile -->
+                                <div class="header-nav__mobile-wrap">
+                                    <label for="header-nav__mobile-checkbox" class="header-nav__mobile-icon-wrap">
                                         <svg
                                             class="header-nav__mobile-icon"
                                             width="17"
@@ -93,19 +93,22 @@
                                                 stroke-linejoin="round"
                                             />
                                         </svg>
-                                    </div>
+                                    </label>
+
+                                    <!-- Header Drawer Check Box => Mobile -->
                                     <input
                                         type="checkbox"
                                         name=""
                                         id="header-nav__mobile-checkbox"
                                         class="header-nav__mobile-checkbox"
                                     />
-                                    <!-- Nav mobile Overlay -->
+
+                                    <!-- Header Drawer Overlay => Mobile -->
                                     <label for="header-nav__mobile-checkbox" class="header-nav__mobile-overlay"></label>
 
-                                    <!-- Nav mobile Body -->
+                                    <!-- Header Drawer Body => Mobile -->
                                     <div class="header-nav__mobile-body">
-                                        <!-- Logo -->
+                                        <!-- Header Drawer Body LOGO => Mobile -->
                                         <a href="#">
                                             <picture class="header-nav__mobile-logo-wrap">
                                                 <img
@@ -115,7 +118,7 @@
                                                 />
                                             </picture>
                                         </a>
-                                        <!-- Header nav Mobile List  -->
+                                        <!-- Header Drawer nav List => Mobile  -->
                                         <ul class="header-nav__mobile-list">
                                             <li class="header-nav__mobile-item">
                                                 <a href="/" class="header-nav__mobile-item-link">Home</a>
@@ -134,37 +137,37 @@
                                             </li>
                                         </ul>
 
-                                        <!-- Header Mobile - Social -->
-                                        <div class="hero-content__social-wrap hero-content__social-wrap-nav-mobile">
-                                            <p class="hero-content__social-label">Follow me on:</p>
-                                            <div class="hero-content__social-list hero-content__social-list-nav-mobile">
-                                                <a href="#!" class="hero-content__social-icon-wrap">
+                                        <!-- Header Drawer Social Nav => Mobile -->
+                                        <div class="social__wrap social__item-wrap--nav-mobile">
+                                            <p class="social__label">Follow me on:</p>
+                                            <div class="social__list social__list--nav-mobile">
+                                                <a href="#!" class="social__item-wrap">
                                                     <img
                                                         src="./assets/icon/social-be.svg"
                                                         alt=""
-                                                        class="hero-content__social-icon"
+                                                        class="social__item-icon"
                                                     />
                                                 </a>
-                                                <a href="#!" class="hero-content__social-icon-wrap">
+                                                <a href="#!" class="social__item-wrap">
                                                     <img
                                                         src="./assets/icon/social-ball.svg"
                                                         alt=""
-                                                        class="hero-content__social-icon"
+                                                        class="social__item-icon"
                                                     />
                                                 </a>
-                                                <a href="#!" class="hero-content__social-icon-wrap">
+                                                <a href="#!" class="social__item-wrap">
                                                     <img
                                                         src="./assets/icon/social-intargram.svg"
                                                         alt=""
-                                                        class="hero-content__social-icon"
+                                                        class="social__item-icon"
                                                     />
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
-                                </label>
+                                </div>
 
-                                <!-- PC - Menu -->
+                                <!-- Header nav List => PC -->
                                 <ul class="header-nav__list">
                                     <li class="header-nav__item">
                                         <a href="#!" class="header-nav__item-link">Projects</a>
@@ -186,15 +189,15 @@
             </div>
         </header>
 
-        <!-- Main -->
+        <!-- Main => Mobile -->
         <main class="main">
-            <!-- Hero -->
+            <!-- Hero => Mobile -->
             <section class="hero">
                 <div class="container hero__container">
                     <div class="row-col-1">
                         <div class="col">
                             <div class="hero__wrap">
-                                <!-- Hero content -->
+                                <!-- Hero content => Mobile -->
                                 <article class="hero-content">
                                     <h1 class="hero-content__heading section-heading-h1">An Interactive Designer</h1>
                                     <p class="hero-content__desc section-desc">
@@ -205,36 +208,39 @@
                                         <a href="#!" class="hero-content__cta-btn btn">Book a Call</a>
                                         <a href="#!" class="hero-content__cta-text">My Works</a>
                                     </div>
-                                    <div class="hero-content__social-wrap">
-                                        <p class="hero-content__social-label">Follow me on:</p>
-                                        <div class="hero-content__social-list">
-                                            <a href="#!" class="hero-content__social-icon-wrap">
+
+                                    <!-- Social (Social in Common) -->
+                                    <div class="social__wrap">
+                                        <p class="social__label">Follow me on:</p>
+                                        <div class="social__list">
+                                            <a href="#!" class="social__item-wrap">
                                                 <img
                                                     src="./assets/icon/social-be.svg"
                                                     alt=""
-                                                    class="hero-content__social-icon"
+                                                    class="social__item-icon"
                                                 />
                                             </a>
-                                            <a href="#!" class="hero-content__social-icon-wrap">
+                                            <a href="#!" class="social__item-wrap">
                                                 <img
                                                     src="./assets/icon/social-ball.svg"
                                                     alt=""
-                                                    class="hero-content__social-icon"
+                                                    class="social__item-icon"
                                                 />
                                             </a>
-                                            <a href="#!" class="hero-content__social-icon-wrap">
+                                            <a href="#!" class="social__item-wrap">
                                                 <img
                                                     src="./assets/icon/social-intargram.svg"
                                                     alt=""
-                                                    class="hero-content__social-icon"
+                                                    class="social__item-icon"
                                                 />
                                             </a>
                                         </div>
                                     </div>
                                 </article>
 
-                                <!-- Hero media -->
+                                <!-- Hero media => Mobile -->
                                 <div class="hero-media">
+                                    <!-- Hero media Image => Mobile -->
                                     <picture class="hero-media__image">
                                         <source
                                             media="(max-width: 767.98px)"
@@ -247,6 +253,7 @@
                                         />
                                     </picture>
 
+                                    <!-- Hero media Decor => Mobile -->
                                     <div class="hero-media__decor">
                                         <img
                                             src="./assets/img/hero-media-decor.svg"
@@ -262,7 +269,7 @@
             </section>
         </main>
 
-        <!-- Footer -->
+        <!-- Footer => Mobile -->
         <footer class="footer"></footer>
     </body>
 </html>
