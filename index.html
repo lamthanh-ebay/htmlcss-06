@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>An Interactive Designer</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="./assets/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Grid CSS -->
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body style="height: 2000px">
+        <!-- Header -->
+        <header class="header">
+            <div class="container header__container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header__wrap">
+                            <!-- Header email -->
+                            <div class="header-email">
+                                <a href="mailto:hi@arif.interactive" class="header-email__icon-wrap">
+                                    <img src="./assets/icon/header-email-icon.svg" alt="" class="header-email__icon" />
+                                </a>
+                                <a href="mailto:hi@arif.interactive" class="header-email__add">hi@arif.interactive</a>
+                            </div>
+
+                            <!-- Header Logo -->
+                            <a href="#">
+                                <picture>
+                                    <source media="(max-width: 767.98px)" srcset="./assets/img/Logo-mobile.png" />
+                                    <img
+                                        src="./assets/img/Logo.png"
+                                        alt="An Interactive Designer"
+                                        class="header-logo"
+                                    />
+                                </picture>
+                            </a>
+
+                            <!-- Header nav -->
+                            <nav class="header-nav">
+                                <!-- Mobile - Tablet - Menu -->
+                                <label for="header-nav__mobile-checkbox" class="header-nav__mobile-wrap">
+                                    <div class="header-nav__mobile-icon-wrap">
+                                        <svg
+                                            class="header-nav__mobile-icon"
+                                            width="17"
+                                            height="8"
+                                            viewBox="0 0 17 8"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M1 7H16"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                            <path
+                                                d="M1 1H16"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <input
+                                        type="checkbox"
+                                        name=""
+                                        id="header-nav__mobile-checkbox"
+                                        class="header-nav__mobile-checkbox"
+                                    />
+                                    <!-- Nav mobile Overlay -->
+                                    <label for="header-nav__mobile-checkbox" class="header-nav__mobile-overlay"></label>
+
+                                    <!-- Nav mobile Body -->
+                                    <div class="header-nav__mobile-body">
+                                        <!-- Logo -->
+                                        <a href="#">
+                                            <picture class="header-nav__mobile-logo-wrap">
+                                                <img
+                                                    src="./assets/img/Logo-mobile.png"
+                                                    alt="An Interactive Designer"
+                                                    class="header-nav__mobile-logo"
+                                                />
+                                            </picture>
+                                        </a>
+                                        <!-- Header nav Mobile List  -->
+                                        <ul class="header-nav__mobile-list">
+                                            <li class="header-nav__mobile-item">
+                                                <a href="/" class="header-nav__mobile-item-link">Home</a>
+                                            </li>
+                                            <li class="header-nav__mobile-item">
+                                                <a href="/" class="header-nav__mobile-item-link">Projects</a>
+                                            </li>
+                                            <li class="header-nav__mobile-item">
+                                                <a href="/" class="header-nav__mobile-item-link">Journey</a>
+                                            </li>
+                                            <li class="header-nav__mobile-item">
+                                                <a href="/" class="header-nav__mobile-item-link">Service</a>
+                                            </li>
+                                            <li class="header-nav__mobile-item">
+                                                <a href="/" class="header-nav__mobile-item-link">Contact</a>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Header Mobile - Social -->
+                                        <div class="hero-content__social-wrap">
+                                            <p class="hero-content__social-label">Follow me on:</p>
+                                            <a href="#!" class="hero-content__social-icon-wrap">
+                                                <img
+                                                    src="./assets/icon/social-be.svg"
+                                                    alt=""
+                                                    class="hero-content__social-icon"
+                                                />
+                                            </a>
+                                            <a href="#!" class="hero-content__social-icon-wrap">
+                                                <img
+                                                    src="./assets/icon/social-ball.svg"
+                                                    alt=""
+                                                    class="hero-content__social-icon"
+                                                />
+                                            </a>
+                                            <a href="#!" class="hero-content__social-icon-wrap">
+                                                <img
+                                                    src="./assets/icon/social-intargram.svg"
+                                                    alt=""
+                                                    class="hero-content__social-icon"
+                                                />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </label>
+
+                                <!-- PC - Menu -->
+                                <ul class="header-nav__list">
+                                    <li class="header-nav__item">
+                                        <a href="#!" class="header-nav__item-link">Projects</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a href="#!" class="header-nav__item-link">Journey</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a href="#!" class="header-nav__item-link">Service</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a href="#!" class="header-nav__item-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container hero__container">
+                    <div class="row-col-1">
+                        <div class="col">
+                            <div class="hero__wrap">
+                                <!-- Hero content -->
+                                <article class="hero-content">
+                                    <h1 class="hero-content__heading section-heading-h1">An Interactive Designer</h1>
+                                    <p class="hero-content__desc section-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl
+                                        tincidunt ut elementum turpis.
+                                    </p>
+                                    <div class="hero-content__cta-wrap">
+                                        <a href="#!" class="hero-content__cta-btn btn">Book a Call</a>
+                                        <a href="#!" class="hero-content__cta-text">My Works</a>
+                                    </div>
+                                    <div class="hero-content__social-wrap">
+                                        <p class="hero-content__social-label">Follow me on:</p>
+                                        <a href="#!" class="hero-content__social-icon-wrap">
+                                            <img
+                                                src="./assets/icon/social-be.svg"
+                                                alt=""
+                                                class="hero-content__social-icon"
+                                            />
+                                        </a>
+                                        <a href="#!" class="hero-content__social-icon-wrap">
+                                            <img
+                                                src="./assets/icon/social-ball.svg"
+                                                alt=""
+                                                class="hero-content__social-icon"
+                                            />
+                                        </a>
+                                        <a href="#!" class="hero-content__social-icon-wrap">
+                                            <img
+                                                src="./assets/icon/social-intargram.svg"
+                                                alt=""
+                                                class="hero-content__social-icon"
+                                            />
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <!-- Hero media -->
+                                <div class="hero-media">
+                                    <picture class="hero-media__image">
+                                        <source
+                                            media="(max-width: 767.98px)"
+                                            srcset="./assets/img/hero-media-image-mobile.png"
+                                        />
+                                        <img
+                                            src="./assets/img/hero-media-image.png"
+                                            alt=""
+                                            class="hero-media__image-img"
+                                        />
+                                    </picture>
+
+                                    <div class="hero-media__decor">
+                                        <img
+                                            src="./assets/img/hero-media-decor.svg"
+                                            alt=""
+                                            class="hero-media__decor-image"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer"></footer>
+    </body>
+</html>
