@@ -289,10 +289,12 @@ button {
 }
 
 .hero-content__heading {
+    max-width: 260px;
 }
 
 .hero-content__desc {
     margin-top: 20px;
+    max-width: 318px;
 }
 
 .hero-content__cta-wrap {

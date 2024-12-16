@@ -2,6 +2,11 @@
 
 /* Mobile ==> sm & None */
 @media screen and (max-width: 767.98px) {
+    .container {
+        --spacer: 10px;
+
+        max-width: 360px;
+    }
 }
 
 /* Tablet & PC ==> md & lg & xl & xxl */

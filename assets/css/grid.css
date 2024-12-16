@@ -5,7 +5,7 @@
 .container,
 .container-fluid {
     --column-size: 12;
-    --spacer: 12px;
+    --spacer: 24px;
 
     width: 100%;
     margin-left: auto;
@@ -213,7 +213,7 @@
 @media (min-width: 576px) {
     /* Container sm */
     .container {
-        --spacer: 12px;
+        --spacer: 30px;
 
         max-width: 540px;
     }
@@ -698,6 +698,8 @@
 @media (min-width: 1200px) {
     /* Container xl */
     .container {
+        --spacer: 30px;
+
         max-width: 1170px;
     }
 
@@ -858,6 +860,8 @@
 @media (min-width: 1400px) {
     /* Container xxl */
     .container {
+        --spacer: 30px;
+
         max-width: 1320px;
     }
 
