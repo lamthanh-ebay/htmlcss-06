@@ -35,7 +35,8 @@ a,
 input,
 select,
 textarea,
-button {
+button,
+label {
     font-family: inherit;
     font-size: inherit;
     color: inherit;
@@ -867,6 +868,7 @@ button {
 .afq__item:has(.afq-item-checkbox-4:checked),
 .afq__item:has(.afq-item-checkbox-5:checked) {
     border-color: var(--primary-color);
+    transition: border-color linear 0.15s;
 }
 
 .afq-item-checkbox {
@@ -911,6 +913,7 @@ button {
 .afq-item-checkbox-4:checked ~ .afq__item-top .afq__title,
 .afq-item-checkbox-5:checked ~ .afq__item-top .afq__title {
     color: var(--primary-color);
+    transition: color linear 0.15s;
 }
 
 .afq-item-checkbox-1:checked ~ .afq__item-top .afq__item-icon-1,
@@ -936,7 +939,6 @@ button {
     visibility: hidden;
     transform: scaleY(0);
     transform-origin: top center;
-    transition: all linear 0.05s;
 }
 
 .afq__item-content-text {
@@ -953,6 +955,7 @@ button {
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
+    transition: all linear 0.15s;
 }
 
 /********* My Atmos ************/
