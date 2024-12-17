@@ -270,7 +270,7 @@
 
             <!-- Clients => Mobile -->
             <section class="clients">
-                <div class="container">
+                <div class="container clients-container">
                     <div class="row row-col-1">
                         <div class="col">
                             <div class="clients__wrap">
@@ -400,7 +400,7 @@
 
             <!-- Project => Mobile-->
             <section class="project">
-                <div class="container">
+                <div class="container project-container">
                     <!-- Project Top - Row 1 -->
                     <div class="project__top row row-col-1">
                         <div class="col">
@@ -545,66 +545,75 @@
 
             <!-- Interactive => Mobile -->
             <section class="interactive">
-                <div class="container">
+                <div class="container interactive-container">
                     <div class="row">
                         <!-- Interactive Top -->
-                        <div class="col-12 interactive__top">
-                            <p class="interactive__title">
-                                Hey,,,,It’s Arif
-                                <img
-                                    src="./assets/icon/interactive-icon-1.svg"
-                                    alt=""
-                                    class="interactive__title-icon"
-                                />
-                            </p>
-                            <h2 class="interactive__heading section-heading-h2">Interactive Designer</h2>
-                            <p class="interactive__desc section-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut
-                                elementum turpis.
-                            </p>
+                        <div class="col-12">
+                            <div class="interactive__top">
+                                <p class="interactive__title">
+                                    Hey,,,,It’s Arif
+                                    <img
+                                        src="./assets/icon/interactive-icon-1.svg"
+                                        alt=""
+                                        class="interactive__title-icon"
+                                    />
+                                </p>
+                                <h2 class="interactive__heading section-heading-h2">Interactive Designer</h2>
+                                <p class="interactive__desc section-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- Interactive number List -->
-                        <div class="col-12 interactive__number-list">
-                            <!-- Interactive number Item 1 -->
-                            <div class="interactive__number-item">
-                                <p class="interactive__number-item--number">21+</p>
-                                <p class="interactive__number-item--title">Features &&nbsp;Awards</p>
-                            </div>
+                        <div class="col-12">
+                            <div class="interactive__number-list">
+                                <!-- Interactive number Item 1 -->
+                                <div class="interactive__number-item">
+                                    <p class="interactive__number-item--number">21+</p>
+                                    <p class="interactive__number-item--title">Features &&nbsp;Awards</p>
+                                </div>
 
-                            <!-- Interactive number Item 2 -->
-                            <div class="interactive__number-item">
-                                <p class="interactive__number-item--number">08+</p>
-                                <p class="interactive__number-item--title">Years Experience</p>
-                            </div>
+                                <!-- Interactive number Item 2 -->
+                                <div class="interactive__number-item">
+                                    <p class="interactive__number-item--number">08+</p>
+                                    <p class="interactive__number-item--title">Years Experience</p>
+                                </div>
 
-                            <!-- Interactive number Item 3 -->
-                            <div class="interactive__number-item">
-                                <p class="interactive__number-item--number">97%</p>
-                                <p class="interactive__number-item--title">Clients Rating</p>
+                                <!-- Interactive number Item 3 -->
+                                <div class="interactive__number-item">
+                                    <p class="interactive__number-item--number">97%</p>
+                                    <p class="interactive__number-item--title">Clients Rating</p>
+                                </div>
                             </div>
                         </div>
 
                         <!-- Interactive Media -->
-                        <div class="col-12 interactive__media">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="./assets/img/interactive-media-pc-1.png" />
-                                <img
-                                    src="./assets/img/interactive-media-mobile-1.png"
-                                    alt="Interactive Designer"
-                                    class="interactive__media-image"
-                                />
-                            </picture>
+                        <div class="col-12">
+                            <div class="interactive__media">
+                                <picture>
+                                    <source
+                                        media="(min-width: 768px)"
+                                        srcset="./assets/img/interactive-media-pc-1.png"
+                                    />
+                                    <img
+                                        src="./assets/img/interactive-media-mobile-1.png"
+                                        alt="Interactive Designer"
+                                        class="interactive__media-image"
+                                    />
+                                </picture>
 
-                            <button class="interactive__media-intro-video btn">Intro Video</button>
+                                <button class="interactive__media-intro-video btn">Intro Video</button>
 
-                            <button class="interactive__media-play-video">
-                                <img
-                                    src="./assets/icon/interactive-play-video-icon.svg"
-                                    alt=""
-                                    class="interactive__media-play-video-icon"
-                                />
-                            </button>
+                                <button class="interactive__media-play-video">
+                                    <img
+                                        src="./assets/icon/interactive-play-video-icon.svg"
+                                        alt=""
+                                        class="interactive__media-play-video-icon"
+                                    />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -615,146 +624,61 @@
                 <!-- People Says Decor -->
                 <img src="./assets/img/people-say-decor-1.svg" alt="" class="people-say__decor" />
                 <img src="./assets/img/people-say-decor-2.svg" alt="" class="people-say__decor" />
-                <div class="container">
+
+                <div class="container people-says-container">
                     <article class="people-says__wrap">
                         <!-- People say - Top -->
-                        <div class="row row-col-1 people-says__top">
+                        <div class="row row-col-1">
                             <div class="col">
-                                <h2 class="people-says__heading section-heading-h2">What people says</h2>
-                                <p class="people-says__desc section-desc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt
-                                    ut elementum turpis.
-                                </p>
+                                <div class="people-says__top">
+                                    <h2 class="people-says__heading section-heading-h2">What people says</h2>
+                                    <p class="people-says__desc section-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl
+                                        tincidunt ut elementum turpis.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
                         <!-- People says - List -->
                         <div class="row row-col-1 people-says__list">
                             <!-- People say item 1 -->
-                            <div class="col people-says__item">
-                                <blockquote class="people-says__item-quote">
-                                    “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa.”
-                                </blockquote>
+                            <div class="col">
+                                <div class="people-says__item">
+                                    <blockquote class="people-says__item-quote">
+                                        “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa.”
+                                    </blockquote>
 
-                                <!-- People say - User -->
-                                <div class="people-says__user">
-                                    <div class="people-says__user-avatar-wrap">
-                                        <img
-                                            src="./assets/img/people-says-item-user-1.png"
-                                            alt="Joe Elia"
-                                            class="people-says__user-avatar"
-                                        />
+                                    <!-- People say - User -->
+                                    <div class="people-says__user">
+                                        <div class="people-says__user-avatar-wrap">
+                                            <img
+                                                src="./assets/img/people-says-item-user-1.png"
+                                                alt="Joe Elia"
+                                                class="people-says__user-avatar"
+                                            />
+                                        </div>
+
+                                        <p class="people-says__user-name">Joe Elia</p>
                                     </div>
-
-                                    <p class="people-says__user-name">Joe Elia</p>
+                                    <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
                                 </div>
-                                <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
-                            </div>
-
-                            <!-- People say item 1 -->
-                            <div class="col people-says__item">
-                                <blockquote class="people-says__item-quote">
-                                    “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa.”
-                                </blockquote>
-
-                                <!-- People say - User -->
-                                <div class="people-says__user">
-                                    <div class="people-says__user-avatar-wrap">
-                                        <img
-                                            src="./assets/img/people-says-item-user-1.png"
-                                            alt="Joe Elia"
-                                            class="people-says__user-avatar"
-                                        />
-                                    </div>
-
-                                    <p class="people-says__user-name">Joe Elia</p>
-                                </div>
-                                <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
-                            </div>
-
-                            <!-- People say item 1 -->
-                            <div class="col people-says__item">
-                                <blockquote class="people-says__item-quote">
-                                    “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa.”
-                                </blockquote>
-
-                                <!-- People say - User -->
-                                <div class="people-says__user">
-                                    <div class="people-says__user-avatar-wrap">
-                                        <img
-                                            src="./assets/img/people-says-item-user-1.png"
-                                            alt="Joe Elia"
-                                            class="people-says__user-avatar"
-                                        />
-                                    </div>
-
-                                    <p class="people-says__user-name">Joe Elia</p>
-                                </div>
-                                <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
-                            </div>
-
-                            <!-- People say item 1 -->
-                            <div class="col people-says__item">
-                                <blockquote class="people-says__item-quote">
-                                    “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa.”
-                                </blockquote>
-
-                                <!-- People say - User -->
-                                <div class="people-says__user">
-                                    <div class="people-says__user-avatar-wrap">
-                                        <img
-                                            src="./assets/img/people-says-item-user-1.png"
-                                            alt="Joe Elia"
-                                            class="people-says__user-avatar"
-                                        />
-                                    </div>
-
-                                    <p class="people-says__user-name">Joe Elia</p>
-                                </div>
-                                <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
-                            </div>
-
-                            <!-- People say item 1 -->
-                            <div class="col people-says__item">
-                                <blockquote class="people-says__item-quote">
-                                    “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa.”
-                                </blockquote>
-
-                                <!-- People say - User -->
-                                <div class="people-says__user">
-                                    <div class="people-says__user-avatar-wrap">
-                                        <img
-                                            src="./assets/img/people-says-item-user-1.png"
-                                            alt="Joe Elia"
-                                            class="people-says__user-avatar"
-                                        />
-                                    </div>
-
-                                    <p class="people-says__user-name">Joe Elia</p>
-                                </div>
-                                <p class="people-says__user-desc">User Interface Design at PCL Lab</p>
                             </div>
                         </div>
 
                         <!-- People says - Dots -->
-                        <div class="row row-col-1 people-dots">
-                            <div class="col">
-                                <div class="dots-wrap">
-                                    <div class="dots"></div>
-                                    <div class="dots"></div>
-                                    <div class="dots dots--active"></div>
-                                    <div class="dots"></div>
-                                    <div class="dots"></div>
+                        <div class="people-dots">
+                            <div class="row row-col-1">
+                                <div class="col">
+                                    <div class="dots-wrap">
+                                        <div class="dots"></div>
+                                        <div class="dots"></div>
+                                        <div class="dots dots--active"></div>
+                                        <div class="dots"></div>
+                                        <div class="dots"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

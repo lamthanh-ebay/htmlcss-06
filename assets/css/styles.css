@@ -146,6 +146,7 @@ button {
 }
 
 .header__container {
+    overflow: hidden;
 }
 
 .header__wrap {
@@ -302,6 +303,7 @@ button {
 }
 
 .hero__container {
+    overflow: hidden;
 }
 
 .hero__wrap {
@@ -376,6 +378,10 @@ button {
     padding-top: 125px;
 }
 
+.clients-container {
+    overflow: hidden;
+}
+
 .clients__wrap {
     display: flex;
     flex-direction: column;
@@ -429,7 +435,7 @@ button {
     height: 32px;
 }
 
-/*** Speci => Mobile ***/
+/********** Speci => Mobile ***********/
 .speci {
     padding: 120px 0 122px;
 }
@@ -502,10 +508,14 @@ button {
 .speci-bottom {
     margin-top: 32px;
 }
-/*** Project => Mobile ***/
+/*********** Project => Mobile ***********/
 .project {
     padding: 69px 0 60px;
     background-color: var(--primary-color);
+}
+
+.project-container {
+    overflow: hidden;
 }
 
 .project__top {
@@ -594,11 +604,16 @@ button {
     background-color: #fff;
 }
 
-/*** Interactive => Mobile ***/
+/************** Interactive => Mobile ***************/
 
 .interactive {
-    padding: 120px 0 208px;
+    margin-bottom: -116px;
+    padding: 120px 0 0;
     position: relative;
+}
+
+.interactive-container {
+    overflow: hidden;
 }
 
 /* Interactive Top */
@@ -672,11 +687,8 @@ button {
 
 /* Interactive Media */
 .interactive__media {
-    max-width: 360px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -108px;
+    margin-top: 40px;
+    position: relative;
     z-index: 1;
 }
 
@@ -717,11 +729,17 @@ button {
 .interactive__media-play-video-icon {
 }
 
-/* People says */
+/*************** People says ***************/
 .people-says {
     position: relative;
     padding: 229px 0 69px;
     background: #f6f4fd;
+}
+
+.people-says-container {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
 }
 
 /* People Says Decor */
@@ -738,7 +756,6 @@ button {
 }
 
 .people-says__wrap {
-    overflow: hidden;
 }
 
 /* People say - Top */
@@ -761,10 +778,10 @@ button {
 
 /* People say item */
 .people-says__item {
+    width: 100%;
 }
 
 .people-says__item-quote {
-    width: 361px;
     margin: 0 auto;
     color: var(--text-color);
     text-align: center;
