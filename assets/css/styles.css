@@ -955,4 +955,54 @@ button {
     transform: scaleY(1);
 }
 
+/********* My Atmos ************/
+.my-atmos {
+    padding: 120px 0;
+}
+
+.my-atmos__top {
+    text-align: center;
+}
+
+.my-atmos__heading {
+}
+
+.my-atmos__desc {
+    margin-top: 20px;
+}
+
+.my-atmos__contact {
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: -0.08rem;
+    text-decoration: underline;
+}
+
+.my-atmos__image-list {
+    margin-top: 60px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.my-atmos__image-item {
+    order: 1;
+}
+
+.my-atmos__image-item:nth-child(2) {
+    order: 0;
+}
+
+.my-atmos__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my-atmos__dots {
+    margin-top: 38px;
+}
+
 /********* Footer => Mobile *********/
