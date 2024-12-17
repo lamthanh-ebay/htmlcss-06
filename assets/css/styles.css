@@ -833,4 +833,126 @@ button {
 .people-dots {
     margin-top: 20px;
 }
+
+/************** AFQ **************/
+.afq {
+    padding-top: 120px;
+}
+
+.afq__heading {
+    max-width: 316px;
+    color: var(--text-primary-color);
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.144rem;
+}
+
+.afq__list {
+    margin-top: 42px;
+}
+
+.afq__item {
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #08182f;
+}
+
+.afq__item + .afq__item {
+    margin-top: 40px;
+}
+
+.afq__item:has(.afq-item-checkbox-1:checked),
+.afq__item:has(.afq-item-checkbox-2:checked),
+.afq__item:has(.afq-item-checkbox-3:checked),
+.afq__item:has(.afq-item-checkbox-4:checked),
+.afq__item:has(.afq-item-checkbox-5:checked) {
+    border-color: var(--primary-color);
+}
+
+.afq-item-checkbox {
+}
+
+.afq__item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.afq__title {
+    color: var(--text-primary-color);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.096rem;
+}
+
+.afq__item-icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 2px solid #d0d1d2;
+}
+
+.afq__item-icon {
+}
+
+.afq__item-icon-2 {
+    display: none;
+}
+
+.afq-item-checkbox-1:checked ~ .afq__item-top .afq__title,
+.afq-item-checkbox-2:checked ~ .afq__item-top .afq__title,
+.afq-item-checkbox-3:checked ~ .afq__item-top .afq__title,
+.afq-item-checkbox-4:checked ~ .afq__item-top .afq__title,
+.afq-item-checkbox-5:checked ~ .afq__item-top .afq__title {
+    color: var(--primary-color);
+}
+
+.afq-item-checkbox-1:checked ~ .afq__item-top .afq__item-icon-1,
+.afq-item-checkbox-2:checked ~ .afq__item-top .afq__item-icon-1,
+.afq-item-checkbox-3:checked ~ .afq__item-top .afq__item-icon-1,
+.afq-item-checkbox-4:checked ~ .afq__item-top .afq__item-icon-1,
+.afq-item-checkbox-5:checked ~ .afq__item-top .afq__item-icon-1 {
+    display: none;
+}
+
+.afq-item-checkbox-1:checked ~ .afq__item-top .afq__item-icon-2,
+.afq-item-checkbox-2:checked ~ .afq__item-top .afq__item-icon-2,
+.afq-item-checkbox-3:checked ~ .afq__item-top .afq__item-icon-2,
+.afq-item-checkbox-4:checked ~ .afq__item-top .afq__item-icon-2,
+.afq-item-checkbox-5:checked ~ .afq__item-top .afq__item-icon-2 {
+    display: block;
+}
+
+/* Afq Content */
+.afq__item-content {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: all linear 0.05s;
+}
+
+.afq__item-content-text {
+    color: var(--text-color);
+    line-height: 1.62;
+}
+
+.afq-item-checkbox-1:checked ~ .afq__item-content,
+.afq-item-checkbox-2:checked ~ .afq__item-content,
+.afq-item-checkbox-3:checked ~ .afq__item-content,
+.afq-item-checkbox-4:checked ~ .afq__item-content,
+.afq-item-checkbox-5:checked ~ .afq__item-content {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
 /********* Footer => Mobile *********/
