@@ -1055,3 +1055,117 @@ label {
 }
 
 /********* Footer => Mobile *********/
+.footer {
+    padding: 120px 0 29px;
+}
+
+/* Footer Top */
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top__logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.footer-nav__list {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav__item {
+}
+
+.footer-nav__link {
+    color: var(--text-color);
+    line-height: 1.25;
+    padding: 10px 0;
+}
+
+.footer-top__email {
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footer-top__email-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #dfd8fc;
+}
+
+.footer-top__email-icon {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+}
+
+.footer-top__email-address {
+    color: var(--text-primary-color);
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.36;
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom-policy__list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-policy__item {
+    position: relative;
+}
+
+.footer-bottom-policy__item + .footer-bottom-policy__item {
+    margin-left: 23px;
+    padding-left: 13px;
+}
+
+.footer-bottom-policy__item + .footer-bottom-policy__item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 14px;
+    background-color: #525771;
+}
+
+.footer-bottom-policy__item-link,
+.footer-bottom__copyright {
+    color: #525771;
+    font-size: 1.8rem;
+    line-height: 1.66;
+    letter-spacing: -0.054rem;
+}
+
+.footer-bottom__copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 29px;
+    padding-top: 20px;
+    border-top: 1px solid #cecdd2;
+}
